@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="msm8953" fetch="https://github.com/xiaomi-msm8953-devs" />
+  <remote name="kavi" fetch="https://github.com/kavi-00" />
+  <remote name="los" fetch="https://github.com/LineageOS" />
+
+  <!-- device tree -->
+  <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="kavi" revision="Alpha14" />
+  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="msm8953" revision="lineage-21" />
+
+  <!-- vendor tree -->
+  <project path="vendor/xiaomi/daisy" name="proprietary_vendor_xiaomi_daisy" remote="msm8953" revision="lineage-21" />
+  <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="msm8953" revision="lineage-21" />
+
+  <!-- kernel tree -->
+  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="msm8953" revision="lineage-21" />
+  
+  <!-- fingerprint -->
+  <project path="vendor/fingerprint/opensource/interfaces" name="android_vendor_fingerprint_opensource_interfaces" remote="msm8953" revision="lineage-21" />
+  
+  <!-- hardware supports -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-21" />
+
+</manifest>
