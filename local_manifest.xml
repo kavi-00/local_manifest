@@ -16,9 +16,6 @@
   <!-- kernel tree -->
   <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="msm8953" revision="lineage-22.1" />
   
-  <!-- fingerprint -->
-  <project path="vendor/fingerprint/opensource/interfaces" name="android_vendor_fingerprint_opensource_interfaces" remote="msm8953" revision="lineage-22.1" />
-  
   <!-- hardware supports -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-22.1" />
 
